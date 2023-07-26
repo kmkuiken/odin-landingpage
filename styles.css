@@ -1,3 +1,20 @@
 * {
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 36px;
+    background-color: #1f2937;
+    display: flex;
+}
+
+.header p {
+    size: 18px;
+    color: #e5e7eb;
+}
+
+.header.logo {
+    size: 24px;
+    color: #f9faf8;
 }
