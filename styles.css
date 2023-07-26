@@ -4,17 +4,21 @@
 }
 
 .header {
-    height: 36px;
     background-color: #1f2937;
     display: flex;
-}
-
-.header p {
+    justify-content: space-between;
     size: 18px;
     color: #e5e7eb;
+    gap: 18px;
 }
 
-.header.logo {
+header.logo {
     size: 24px;
     color: #f9faf8;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 8px;
 }
