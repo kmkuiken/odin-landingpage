@@ -32,17 +32,12 @@
     justify-content: center;
     align-items: center;
     gap: 64px;
-    height: 600px;
+    padding: 150px 64px;
 }
 
 .intro-photo {
-    padding-right: 64px;
     width: 600px;
     height: 300px;
-}
-
-.intro {
-    padding-left: 64px;
 }
 
 .intro .header {
@@ -63,4 +58,16 @@
     font-size: 20px;
     border-radius: 8px;
     padding: 8px 32px;
+}
+
+.dog-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-title p {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
