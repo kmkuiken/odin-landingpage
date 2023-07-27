@@ -29,13 +29,38 @@
 .title {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 64px;
     height: 600px;
 }
 
-.intro-photo img {
+.intro-photo {
+    padding-right: 64px;
+    width: 600px;
     height: 300px;
-    width: 500px;
-    object-fit: cover;
+}
+
+.intro {
+    padding-left: 64px;
+}
+
+.intro .header {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.intro .des {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.intro .signup {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 8px 32px;
 }
