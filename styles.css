@@ -121,3 +121,48 @@
     margin-right: 64px;
 }
 
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call .box {
+    background-color: #3882f6;
+    margin: 64px 64px;
+    padding: 28px 128px;
+    display: flex;
+    border-radius: 16px;
+    gap: 64px;
+}
+
+.call .action {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.call .des {
+    font-size: 16px;
+    font-weight: 300;
+    color: #e5e7eb;
+    margin-top: 4px;
+}
+
+.call .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call .signup {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 3px;
+}
+
