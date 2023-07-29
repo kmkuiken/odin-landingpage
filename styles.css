@@ -95,4 +95,29 @@
     font-size: 18px;
 }
 
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .box {
+    padding: 50px 164px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .type {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.quote .credit {
+    font-weight: 600;
+    align-self: flex-end;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-right: 64px;
+}
 
