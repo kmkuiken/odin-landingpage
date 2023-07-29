@@ -70,5 +70,29 @@
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
+    margin-bottom: 36px;
 }
+
+.dog-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 128px;
+    gap: 64px;
+}
+
+.dog-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.dog-grid p {
+    width: 150px;
+    font-size: 18px;
+}
+
 
