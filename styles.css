@@ -10,6 +10,7 @@
     font-size: 18px;
     color: #e5e7eb;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .logo {
@@ -32,7 +33,7 @@
     justify-content: center;
     align-items: center;
     gap: 64px;
-    padding: 150px 64px;
+    padding: 64px 64px 128px 64px;
 }
 
 .intro-photo {
@@ -163,6 +164,19 @@
     font-size: 16px;
     font-weight: 600;
     padding: 12px 24px;
-    border-radius: 3px;
+    border-radius: 12px;
+    border-width: medium;
 }
 
+.copyright {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: #e5e7eb;
+    font-weight: 300;
+    padding: 16px;
+}
